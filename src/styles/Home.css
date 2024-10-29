@@ -1,0 +1,14 @@
+/* RotatingIcon.css */
+.rotating-icon {
+    font-size: 92px; /* Adjust icon size */ /* Smooth transition for position changes */
+}
+
+/* Home.css */
+.icons-container {
+    position: absolute; /* Ensure it is absolutely positioned */
+    left: 50%; /* Center horizontally */
+    top: 50%; /* Center vertically */
+    transform: translate(-53%, -55%); /* Adjust to center the container */
+    width: 900px; /* Width for the elliptical path */
+    height: 500px; /* Height for the elliptical path */
+}
