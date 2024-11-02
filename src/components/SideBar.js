@@ -1,5 +1,6 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram } from "react-icons/fa"; // Import icons
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"; // Import icons
+import { FaXTwitter } from "react-icons/fa6";
 
 const Sidebar = () => {
   return (
@@ -22,12 +23,12 @@ const Sidebar = () => {
           <FaLinkedin className="text-3xl" /> {/* Adjust the size here */}
         </a>
         <a
-          href="https://Instagram.com/chase._.55"
+          href="https://X.com/ChaseHDev"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gold hover:text-hgold flex items-center justify-center"
         >
-          <FaInstagram className="text-3xl" /> {/* Adjust the size here */}
+          <FaXTwitter className="text-3xl" /> {/* Adjust the size here */}
         </a>
         <a
           href="mailto:chase.hanson9@gmail.com"
